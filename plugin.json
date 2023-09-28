@@ -1,0 +1,16 @@
+{
+	"preload": "preload.js",
+	"logo": "logo.png",
+    "platform": ["linux"],
+	"features": [
+		{
+          "mainPush": true,
+          "platform": [
+            "linux"
+          ],
+		  "code": "linux-mlocate",
+		  "explain": "Linux using mlocate find files.",
+			"cmds":["linux文件搜索", "find", "文件搜索"]
+		}
+	]
+}
